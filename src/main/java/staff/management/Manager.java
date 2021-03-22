@@ -1,4 +1,4 @@
-package management;
+package staff.management;
 
 import staff.Employee;
 

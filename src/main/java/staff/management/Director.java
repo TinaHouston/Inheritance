@@ -1,5 +1,4 @@
-package management;
-import staff.Employee;
+package staff.management;
 
 public class Director extends Manager {
 
@@ -15,6 +14,6 @@ public class Director extends Manager {
     }
 
     public double payBonus(){
-        return (salary / 100) * 2;
+        return (getSalary() / 100) * 2;
     }
 }
